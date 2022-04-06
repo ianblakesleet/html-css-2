@@ -1,0 +1,45 @@
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+}
+nav > div{
+    height: 50px;
+    width: 50px;
+    background-color: rgba(59, 59, 187, 0.932);
+    position: absolute;
+    top: 35px;
+    left: 15px;
+}
+
+section{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+#textbox{
+    background-color: white;
+    height: 250px;
+
+}
+#textbox > p{
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 20px;
+}
+#box1{
+    background-color: lightskyblue;
+    height: 200px;
+}
+#box2{
+    background-color: teal;
+    height: 200px;
+}
+#box3{
+    background-color:greenyellow;
+    height: 200px;
+}
+#box4{
+    background-color:yellow;
+    height: 200px;
+}

@@ -1,0 +1,26 @@
+nav{
+    height: 20vh;
+    width: 100%;
+    background-color: grey;
+}
+#flexbox{
+    display: flex;
+    height: 80vh;
+    
+}
+#boxright, #boxleft {
+    background-color: lightgrey;
+    width: 20vh;
+}
+#boxmiddle{
+    flex-grow: 1;
+    align-self: flex-end;
+    
+}
+#bottom{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+    color: black;
+    
+    
+}
